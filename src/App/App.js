@@ -1,9 +1,10 @@
 import React from 'react';
+import s from '../App/App.module.css';
 
 function App() {
   return (
-    <div className="App">
-      React app
+    <div className={s.App}>
+     REDUX STEP BY STEP
     </div>
   );
 }

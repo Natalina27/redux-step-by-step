@@ -1,11 +1,6 @@
 import { createStore } from 'redux';
+import todo from "./reducer";
 
-// Reducer to-do
-const initialState = {};
-const todo = (state = initialState, action) => {
-};
-
-//
 const store = createStore(
     todo
 );
